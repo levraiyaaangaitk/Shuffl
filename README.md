@@ -1,2 +1,1 @@
-# blamod
-A Balatro mod
+# SHUFFL | A Balatro mod
