@@ -1,0 +1,63 @@
+SMODS.Joker{
+    key = 'dodgeroll',
+    config = {
+        extra = {
+            outof = 15
+        }
+    },
+    loc_txt = {
+        name = 'Dodgeroll',
+        text = {
+            '{C:green}#1# in #2#{} chance to',
+            'make blind requirement {C:red}25%{} lower',
+            'when the blind is selected.'
+        }
+    },
+    rarity = 3,
+    cost = 6,
+    blueprint_compat=true,
+    eternal_compat=true,
+    unlocked = true,
+    discovered = true,
+    loc_vars = function(self, info_queue, card)
+        return { vars = { G.GAME.probabilities.normal, card.ability.extra.outof } }
+    end,
+    calculate = function (self,card,context)
+        if context.before then
+            if 1 == 1 then
+                G.GAME.blind.chips = G.GAME.blind.chips * 0.75
+                return{
+                    card = card,
+                    colour = G.C.RED,
+                    message = 'Dodged !'
+                }
+            end
+        end
+    end
+}
+
+SMODS.Enhancement{
+    key = 'anumerical',
+    loc_txt = {
+        name = 'Anumerical',
+        text = {
+            '{C:chips}+10{} Chips.',
+            'Keep the suit,',
+            'but can {C:attention}count as every rank{}.'
+        }
+    },
+    config = {
+        bonus = 10
+    },
+    replace_base_card = true,
+    no_rank = true,
+    always_scores = true,
+    calculate = function (self,card,context)
+        if #G.play.cards > 0 then
+            if #G.play.cards == 2 then
+                G.GAME.current_round.current_hand.handname = 'Pair'
+            end
+        end
+    end
+
+}
