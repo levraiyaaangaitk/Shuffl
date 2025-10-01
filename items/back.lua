@@ -6,10 +6,10 @@ SMODS.Back{
     loc_txt = {
         name = 'Aging Deck',
         text = {
-            'Every played {C:attention}Playing Card{}',
-            'Will get {C:attention}+1 rank{}.',
-            '{C:inactive}Ex : 2->3 & 10 -> J.{}'
-        }
+            'Each played {C:attention}playing card{}',
+            'gains {C:attention}+1 rank{}.',
+            '{C:inactive}E.g. 2 → 3, 10 → J.{}'
+    }
     },
     calculate = function(self, back, context)
     if context.after then
@@ -35,8 +35,8 @@ SMODS.Back{
         name = 'Azur Deck',
         text = {
             'Start with 32 cards.',
-            '{C:inactive}Cards 2 to 6 are not present.{}',
-            '{C:mult}-1{} Discrad, {C:chips}-1{} Hand.'
+            '{C:inactive}Cards ranked 2 to 6 are removed.{}',
+            '{C:mult}-1{} Discard, {C:chips}-1{} Hand.'
         }
     },
     config ={
@@ -69,10 +69,10 @@ SMODS.Back{
         name = 'Pink Deck',
         text = {
             '{X:green,C:white,scale:2,E:1}EASY MODE!{}',
-            'Start at {C:attention} Ante 0{}, with',
+            'Start at {C:attention}Ante 0{} with a',
             '{C:tarot,T:v_money_tree}Money Tree{}.',
-            '{C:mult}+1{} Discrad, {C:chips}+1{} Hand.',
-            'Ante scaling is lower.'
+            '{C:mult}+1{} Discard, {C:chips}+1{} Hand.',
+            'Ante scaling is reduced.'
         }
     },
     config ={
