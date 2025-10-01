@@ -2,9 +2,9 @@
 
 **SHUFFL** is a Balatro mod that adds new content:
 
-- 15 new Jokers  
-- 3 new Decks  
-- 4 new Consumables (2 Tarot & 2 Spectral cards)
+- 15 new Jokers (4/15 for now)  
+- 3 new Decks (3/3 for now)
+- 4 new Consumables (2 Tarot & 2 Spectral cards) (0/4 for now)
 
 ---
 
