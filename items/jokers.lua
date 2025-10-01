@@ -1,3 +1,4 @@
+--Weezer
 SMODS.Joker{
     key = 'weezer',
     loc_txt = {
@@ -20,6 +21,8 @@ SMODS.Joker{
     calculate = function (self,card,context)
     end
 }
+
+--SUPREME
 SMODS.Joker{
     key = 'supreme',
     loc_txt = {
@@ -42,6 +45,8 @@ SMODS.Joker{
     calculate = function (self,card,context)
     end
 }
+
+--I Hate Joker
 SMODS.Joker{
     key = 'ihj',
     loc_txt = {
@@ -96,6 +101,8 @@ SMODS.Joker{
         end
     end
 }
+
+--The Numbers
 SMODS.Joker{
     key = "thenumbers",
     atlas = 'numbers',
@@ -175,6 +182,8 @@ SMODS.Joker{
         end
     end
 }
+
+--Venom Jimbo
 SMODS.Joker{
     key = 'venom',
     loc_txt = {
@@ -219,6 +228,8 @@ SMODS.Joker{
         end
     end
 }
+
+--The End of Jimbo
 SMODS.Joker{
     key = 'teoj',
     loc_txt = {

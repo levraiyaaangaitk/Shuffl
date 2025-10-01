@@ -3,6 +3,15 @@ for _, file in ipairs(item_src) do
     assert(SMODS.load_file("items/" .. file))()
 end
 
+if SMODS.Atlas then
+    SMODS.Atlas({
+        key = "modicon",
+        path = "modicon.png",
+        px = 32,
+        py = 32
+    })
+end
+
 SMODS.Atlas{
     key = 'numbers',
     path = 'numbers.png',

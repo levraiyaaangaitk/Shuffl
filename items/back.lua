@@ -1,3 +1,4 @@
+--Aging Deck
 SMODS.Back{
     key = 'Aging',
     atlas = 'v1',
@@ -24,6 +25,8 @@ end
 end
 --thx N' on the Balatro discord a lot for helipng me wit this one
 }
+
+--Azur Deck
 SMODS.Back{
     key = 'Azur',
     atlas = 'v1',
@@ -56,6 +59,8 @@ SMODS.Back{
         }))
     end
 }
+
+--Pink Deck
 SMODS.Back{
     key = 'Pink',
     atlas = 'v1',
