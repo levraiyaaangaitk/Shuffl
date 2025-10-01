@@ -1,9 +1,14 @@
-# SHUFFL | A Balatro mod
-SHUFFL is a Balatro mod that add new content :
-- 15 new jokers
-- 3 new decks
-- 4 new consumable (2 tarots & 2 spectral)
+# SHUFFL | A Balatro Mod
 
-## Information
-Every joker (art & concept) are made by me. Except for **Venom Jimbo** that I took from [@Squarezum](https://x.com/Squarezum) (art & concpet).
-Some part of some joker are inspired from other mod (I mainly took from **Cryptid**, **Bunco** and **MoreFLuff**).
+**SHUFFL** is a Balatro mod that adds new content:
+
+- 15 new Jokers  
+- 3 new Decks  
+- 4 new Consumables (2 Tarot & 2 Spectral cards)
+
+---
+
+## 📝 Information
+
+All Joker art and concepts were created by me, **except for _Venom Jimbo_**, which was taken (art & concept) from [@Squarezum](https://x.com/Squarezum).
+Some parts of certain Jokers were inspired by other mods — mainly **Cryptid**, **Bunco**, and **MoreFLuff**.
