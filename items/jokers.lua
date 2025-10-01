@@ -51,12 +51,12 @@ SMODS.Joker{
     key = 'ihj',
     loc_txt = {
         name = 'I Hate Joker',
-        text = {
-            "Get {C:attention}1 Free{} {C:enhanced}Tags{}",
-            "every {C:attention}#1#{} items",
-            "bought from the shop.",
-            "{C:inactive}At least #2# item(s) left to bought.{}"
-        }
+		text = {
+    		"Gain {C:attention}1 free{} {C:enhanced}Tag{}",
+    		"every {C:attention}#1#{} items",
+    		"purchased from the shop.",
+    		"{C:inactive}#2# item(s) left to purchase.{}"
+		}
     },
     config = {
         extra = {
@@ -124,12 +124,12 @@ SMODS.Joker{
     pos = {x = 4, y = 0},
     loc_txt = {
         name = 'The Numbers',
-        text = {
-            '{C:white,X:mult}x#1#{} Mult.',
-            'Gain {C:white,X:mult}x#2#{} for every {C:attention}#3#{} played,',
-            'Loose {C:white,X:mult}x#4#{} if not.',
-            '{C:inactive}The card value change when the round end.{}'
-        }
+		text = {
+    		'{C:white,X:mult}x#1#{} Mult.',
+    		'Gain {C:white,X:mult}x#2#{} for every {C:attention}#3#{} played,',
+    		'Lose {C:white,X:mult}x#4#{} if not.',
+    		'{C:inactive}Card value changes at the end of the round.{}'
+		}
     },
     loc_vars = function(self, info_queue, card)
         return { vars = { card.ability.extra.xmult, card.ability.extra.gain, card.ability.extra.idtoshow, card.ability.extra.loose } }
@@ -188,11 +188,12 @@ SMODS.Joker{
     key = 'venom',
     loc_txt = {
         name = 'Venom Jimbo',
-        text = {
-            'Gains {C:chips}+#2#{} Chips for',
-            'every {C:planet}Planet{} Card sold.',
-            '{C:inactive}(currently {}{C:chips}+#1#{}{C:inactive} Chips){}'
-        }
+		text = {
+    		'Gain {C:chips}+#2#{} Chips for',
+    		'each {C:planet}Planet{} card sold.',
+    		'{C:inactive}(Currently: {}{C:chips}+#1#{}{C:inactive} Chips){}'
+		}
+
     },
     config = {
         extra = {
@@ -234,11 +235,11 @@ SMODS.Joker{
     key = 'teoj',
     loc_txt = {
         name = 'The End of Jimbo',
-        text = {
-            '{C:white,X:mult}x#1#{} Mult for',
-            'played card on the {C:attention}final',
-            '{C:attention}hand{} of the round.'
-        }
+		text = {
+    		'{C:white,X:mult}x#1#{} Mult for',
+    		'cards played in the {C:attention}final',
+    		'{C:attention}hand{} of the round.'
+		}
     },
     atlas = 'joker_v1',
     pos = {x = 0, y = 1},
